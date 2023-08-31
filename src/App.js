@@ -30,9 +30,7 @@ function App(){
   }
 
   function resetTimer(){
-    setTime({min:0,sec:0})
-    setSeconds(0)
-    setPause(true)
+    window.location.reload()
   }
 
   return <div className="app">
